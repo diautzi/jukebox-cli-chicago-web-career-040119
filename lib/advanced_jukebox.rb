@@ -43,9 +43,11 @@ def play(my_songs)
   my_songs.each do |song, location|
     if user_answer == song 
       puts "Playing #{song}"
-      'open
-    else 
-  
+      system 'open #{location}'
+    end 
+  end
+  puts "Invalid input, please try again"
+     
 end
 
 def exit_jukebox
