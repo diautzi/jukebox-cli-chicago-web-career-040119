@@ -40,7 +40,7 @@ def play(my_songs)
   #get the file path of the song by looking it up in the my_songs hash
   puts "Please enter a song:"
   user_answer = gets.chomp
-  
+  my_songs.
   
 end
 
