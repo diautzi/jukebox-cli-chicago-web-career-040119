@@ -42,7 +42,9 @@ def play(my_songs)
   user_answer = gets.chomp
   my_songs.each do |song, location|
     if user_answer == song 
-      puts "Pla"
+      puts "Playing #{song}"
+      'open
+    else 
   
 end
 
