@@ -46,9 +46,8 @@ def play(my_songs)
       system 'open #{location}'
     end 
   end
-  puts "Invalid input, please try again"
-     
-end
+    puts "Invalid input, please try again"
+  end
 
 def exit_jukebox
   #this method is the same as in jukebox.rb
